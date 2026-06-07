@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Phone, Mail, MessageSquare, CheckCircle2, ChevronRight } from 'lucide-react';
+import { Mail, CheckCircle2, ChevronRight } from 'lucide-react';
 
 type FormState = 'idle' | 'submitting' | 'success' | 'error';
 
@@ -107,55 +107,10 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div>
-                <h3 className="text-lg font-bold text-gray-900 mb-5">Reach Angela Directly</h3>
-                <ul className="space-y-4">
-                  <li>
-                    <a
-                      href="tel:+64275135099"
-                      className="flex items-center gap-4 p-4 rounded-xl border border-gray-200 hover:border-sky-300 hover:bg-sky-50 transition-all group"
-                    >
-                      <div className="w-10 h-10 bg-sky-100 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-sky-200 transition-colors">
-                        <Phone size={18} className="text-sky-600" />
-                      </div>
-                      <div>
-                        <p className="text-xs text-gray-400 font-medium uppercase tracking-wide">Phone</p>
-                        <p className="text-sm font-semibold text-gray-800">027 513 5099</p>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="mailto:mio0318angela@icloud.com"
-                      className="flex items-center gap-4 p-4 rounded-xl border border-gray-200 hover:border-sky-300 hover:bg-sky-50 transition-all group"
-                    >
-                      <div className="w-10 h-10 bg-sky-100 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-sky-200 transition-colors">
-                        <Mail size={18} className="text-sky-600" />
-                      </div>
-                      <div>
-                        <p className="text-xs text-gray-400 font-medium uppercase tracking-wide">Email</p>
-                        <p className="text-sm font-semibold text-gray-800">mio0318angela@icloud.com</p>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <div className="flex items-center gap-4 p-4 rounded-xl border border-gray-200">
-                      <div className="w-10 h-10 bg-sky-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                        <MessageSquare size={18} className="text-sky-600" />
-                      </div>
-                      <div>
-                        <p className="text-xs text-gray-400 font-medium uppercase tracking-wide">Response Time</p>
-                        <p className="text-sm font-semibold text-gray-800">Within 24 hours</p>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-gray-50 rounded-xl p-5">
+<div className="bg-gray-50 rounded-xl p-5">
                 <h4 className="text-sm font-semibold text-gray-900 mb-3">Service Area</h4>
                 <p className="text-sm text-gray-500 leading-relaxed">
-                  Angela is based in New Zealand and available for residential and commercial enquiries. Contact to confirm availability in your area.
+                  Angela is based in Auckland and available for residential and commercial enquiries. Contact to confirm availability in your area.
                 </p>
               </div>
             </div>
