@@ -94,20 +94,7 @@ export default function Contact() {
 
             {/* Contact Info */}
             <div className="lg:col-span-2 space-y-8">
-              {/* Portrait placeholder */}
-              <div className="bg-gray-100 rounded-2xl overflow-hidden border-2 border-dashed border-gray-300 aspect-square flex items-center justify-center">
-                <div className="text-center px-6">
-                  <div className="w-14 h-14 bg-gray-200 rounded-full mx-auto mb-3 flex items-center justify-center">
-                    <svg className="w-7 h-7 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-                    </svg>
-                  </div>
-                  <p className="text-sm font-semibold text-gray-500">Angela Mio Penn</p>
-                  <p className="text-xs text-gray-400 mt-0.5">Upload portrait photo here</p>
-                </div>
-              </div>
-
-<div className="bg-gray-50 rounded-xl p-5">
+              <div className="bg-gray-50 rounded-xl p-5">
                 <h4 className="text-sm font-semibold text-gray-900 mb-3">Service Area</h4>
                 <p className="text-sm text-gray-500 leading-relaxed">
                   Angela is based in Auckland and available for residential and commercial enquiries. Contact to confirm availability in your area.
